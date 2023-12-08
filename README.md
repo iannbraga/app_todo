@@ -6,37 +6,37 @@
 
 ### Funcionalidades
 
-    *Adicionar Tarefa:*
-        __Permitir que os usuários adicionem novas tarefas especificando um título e, opcionalmente, uma descrição.__
+- Adicionar Tarefa:
+    Permitir que os usuários adicionem novas tarefas especificando um título e, opcionalmente, uma descrição.
 
-    *Editar Tarefa:*
-        __Capacidade de editar o título e a descrição de uma tarefa existente.__
+- Editar Tarefa:
+    Capacidade de editar o título e a descrição de uma tarefa existente.
 
-    *Excluir Tarefa:*
-        __Opção para excluir uma tarefa da lista.__
+- Excluir Tarefa:
+    Opção para excluir uma tarefa da lista.
 
-    *Marcar como Concluída:*
-        __Permitir que os usuários marquem uma tarefa como concluída, alterando visualmente seu status.__
+- Marcar como Concluída:
+    Permitir que os usuários marquem uma tarefa como concluída, alterando visualmente seu status.
 
-    *Visualização de Tarefas:*
-        __Exibir todas as tarefas em uma lista, mostrando seus status (pendente ou concluída).__
+- Visualização de Tarefas:
+    Exibir todas as tarefas em uma lista, mostrando seus status (pendente ou concluída).
 
-    *Prioridades:*
-        __Adicionar a funcionalidade de prioridade para que os usuários possam categorizar tarefas como alta, média ou baixa prioridade.__
+- Prioridades:
+    Adicionar a funcionalidade de prioridade para que os usuários possam categorizar tarefas como alta, média ou baixa prioridade.
 
-    *Filtrar Tarefas:*
-        __Implementar filtros para visualizar tarefas pendentes, concluídas ou todas as tarefas.__
+- Filtrar Tarefas:
+    Implementar filtros para visualizar tarefas pendentes, concluídas ou todas as tarefas.
 
-    *Persistência de Dados*
-        __Armazenar as tarefas de forma persistente para que os usuários possam acessá-las mesmo após fechar a aplicação.__
+- Persistência de Dados
+    Armazenar as tarefas de forma persistente para que os usuários possam acessá-las mesmo após fechar a aplicação.
 
-    *Responsividade:*
-        __Garantir que a aplicação seja responsiva para uso em diferentes dispositivos.__
+- Responsividade:
+    Garantir que a aplicação seja responsiva para uso em diferentes dispositivos.
 
-    *Autenticação (Opcional):*
-        __Adicionar um sistema de autenticação para que os usuários possam salvar suas listas de tarefas de forma segura.__
+- Autenticação (Opcional):
+    Adicionar um sistema de autenticação para que os usuários possam salvar suas listas de tarefas de forma segura.
 
-Tecnologias:
+### Tecnologias
 
 - Front-end:
   - Utilize HTML, CSS, e JavaScript para a interface do usuário.
@@ -47,7 +47,7 @@ Tecnologias:
   - Use um banco de dados para armazenar as tarefas, como SQLite ou PostgreSQL.
 
 - Autenticação (Opcional):
-  - Caso opte por adicionar autenticação, utilize Devise ou outra solução para gerenciamento de usuários.
+      - Caso opte por adicionar autenticação, utilize Devise ou outra solução para gerenciamento de usuários.
 
 Entrega:
 
@@ -59,7 +59,3 @@ Entrega:
 
 - Testes:
   - Implementação de testes unitários e de integração para garantir a robustez da aplicação.
-
-Considerações Finais:
-
-Este projeto fornece uma base sólida para a prática de conceitos fundamentais do Ruby on Rails, abrangendo tanto o desenvolvimento front-end quanto o back-end. Ao seguir este escopo, você terá a oportunidade de aprimorar suas habilidades em construir aplicações web funcionais e interativas.
