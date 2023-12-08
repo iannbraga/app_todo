@@ -4,35 +4,35 @@
 
 ### Funcionalidades
 
-    * Adicionar Tarefa: *
-        ** Permitir que os usuários adicionem novas tarefas especificando um título e, opcionalmente, uma descrição. **
+    *Adicionar Tarefa:*
+        **Permitir que os usuários adicionem novas tarefas especificando um título e, opcionalmente, uma descrição.**
 
-    * Editar Tarefa: *
-        ** Capacidade de editar o título e a descrição de uma tarefa existente. **
+    *Editar Tarefa:*
+        **Capacidade de editar o título e a descrição de uma tarefa existente.**
 
-    * Excluir Tarefa: *
-        ** Opção para excluir uma tarefa da lista. **
+    *Excluir Tarefa:*
+        **Opção para excluir uma tarefa da lista.**
 
-    * Marcar como Concluída: *
-        ** Permitir que os usuários marquem uma tarefa como concluída, alterando visualmente seu status. **
+    *Marcar como Concluída:*
+        **Permitir que os usuários marquem uma tarefa como concluída, alterando visualmente seu status.**
 
-    * Visualização de Tarefas: *
-        ** Exibir todas as tarefas em uma lista, mostrando seus status (pendente ou concluída). **
+    *Visualização de Tarefas:*
+        **Exibir todas as tarefas em uma lista, mostrando seus status (pendente ou concluída).**
 
-    * Prioridades: *
-        ** Adicionar a funcionalidade de prioridade para que os usuários possam categorizar tarefas como alta, média ou baixa prioridade. **
+    *Prioridades:*
+        **Adicionar a funcionalidade de prioridade para que os usuários possam categorizar tarefas como alta, média ou baixa prioridade.**
 
-    * Filtrar Tarefas: *
-        ** Implementar filtros para visualizar tarefas pendentes, concluídas ou todas as tarefas. **
+    *Filtrar Tarefas:*
+        **Implementar filtros para visualizar tarefas pendentes, concluídas ou todas as tarefas.**
 
-    * Persistência de Dados *
-        ** Armazenar as tarefas de forma persistente para que os usuários possam acessá-las mesmo após fechar a aplicação. **
+    *Persistência de Dados*
+        **Armazenar as tarefas de forma persistente para que os usuários possam acessá-las mesmo após fechar a aplicação.**
 
-    * Responsividade: *
-        ** Garantir que a aplicação seja responsiva para uso em diferentes dispositivos. **
+    *Responsividade:*
+        **Garantir que a aplicação seja responsiva para uso em diferentes dispositivos.**
 
-    * Autenticação (Opcional): *
-        ** Adicionar um sistema de autenticação para que os usuários possam salvar suas listas de tarefas de forma segura. **
+    *Autenticação (Opcional):*
+        **Adicionar um sistema de autenticação para que os usuários possam salvar suas listas de tarefas de forma segura.**
 
 Tecnologias:
 
