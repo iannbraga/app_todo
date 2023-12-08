@@ -1,38 +1,40 @@
 # Projeto: To-Do List App
 
-## Objetivo: Desenvolver uma aplicação de lista de tarefas para ajudar os usuários a organizar suas atividades diárias
+## Objetivo
+
+    Desenvolver uma aplicação de lista de tarefas para ajudar os usuários a organizar suas atividades diárias
 
 ### Funcionalidades
 
     *Adicionar Tarefa:*
-        **Permitir que os usuários adicionem novas tarefas especificando um título e, opcionalmente, uma descrição.**
+        __Permitir que os usuários adicionem novas tarefas especificando um título e, opcionalmente, uma descrição.__
 
     *Editar Tarefa:*
-        **Capacidade de editar o título e a descrição de uma tarefa existente.**
+        __Capacidade de editar o título e a descrição de uma tarefa existente.__
 
     *Excluir Tarefa:*
-        **Opção para excluir uma tarefa da lista.**
+        __Opção para excluir uma tarefa da lista.__
 
     *Marcar como Concluída:*
-        **Permitir que os usuários marquem uma tarefa como concluída, alterando visualmente seu status.**
+        __Permitir que os usuários marquem uma tarefa como concluída, alterando visualmente seu status.__
 
     *Visualização de Tarefas:*
-        **Exibir todas as tarefas em uma lista, mostrando seus status (pendente ou concluída).**
+        __Exibir todas as tarefas em uma lista, mostrando seus status (pendente ou concluída).__
 
     *Prioridades:*
-        **Adicionar a funcionalidade de prioridade para que os usuários possam categorizar tarefas como alta, média ou baixa prioridade.**
+        __Adicionar a funcionalidade de prioridade para que os usuários possam categorizar tarefas como alta, média ou baixa prioridade.__
 
     *Filtrar Tarefas:*
-        **Implementar filtros para visualizar tarefas pendentes, concluídas ou todas as tarefas.**
+        __Implementar filtros para visualizar tarefas pendentes, concluídas ou todas as tarefas.__
 
     *Persistência de Dados*
-        **Armazenar as tarefas de forma persistente para que os usuários possam acessá-las mesmo após fechar a aplicação.**
+        __Armazenar as tarefas de forma persistente para que os usuários possam acessá-las mesmo após fechar a aplicação.__
 
     *Responsividade:*
-        **Garantir que a aplicação seja responsiva para uso em diferentes dispositivos.**
+        __Garantir que a aplicação seja responsiva para uso em diferentes dispositivos.__
 
     *Autenticação (Opcional):*
-        **Adicionar um sistema de autenticação para que os usuários possam salvar suas listas de tarefas de forma segura.**
+        __Adicionar um sistema de autenticação para que os usuários possam salvar suas listas de tarefas de forma segura.__
 
 Tecnologias:
 
