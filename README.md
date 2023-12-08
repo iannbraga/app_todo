@@ -1,8 +1,7 @@
 # Projeto: To-Do List App
 
 ## Objetivo
-
-    - Desenvolver uma aplicação de lista de tarefas para ajudar os usuários a organizar suas atividades diárias
+Desenvolver uma aplicação de lista de tarefas para ajudar os usuários a organizar suas atividades diárias
 
 ### Funcionalidades
 
