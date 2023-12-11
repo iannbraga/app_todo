@@ -13,8 +13,11 @@
                 <%= f.check_box :concluida, class: 'form-check-input' %>
                 <%= f.label :concluida, class: 'form-check-label' %>
             </div>
-            <div class="col-12 mt-2">
-                <%= f.submit "Criar tarefa", class: 'btn btn-primary' %>
+            <div class="col-6 mt-2 text-center">
+                <%= f.submit "Salvar", class: 'btn btn-primary w-100' %>
+            </div>
+            <div class="col-6 mt-2 text-center">
+                <%= link_to "Cancelar", tarefas_path, class: 'btn btn-outline-danger w-100' %>
             </div>
         </div>
     <% end %>

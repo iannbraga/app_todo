@@ -3,46 +3,10 @@
         <span class="fs-2">Tarefas</span>
     </div>
     <div id="tarefas">
-        <table class="table text-center">
-            <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Titulo</th>
-                  <th scope="col">Ações</th>
-                </tr>
-            </thead>
-            <tbody>
-                <% @tarefas.each do |tarefa| %>
-                    <tr class="<%= 'table-success' if tarefa.concluida %>">
-                        <th scope="row"><%= tarefa.id %></th>
-                        <td><%= link_to tarefa.titulo, tarefa, class:'nav-link' %></td>
-                        <td>
-                            <ul class="list-unstyled list-inline">
-                                <%- unless tarefa.concluida %>
-                                <li class="list-inline-item">
-                                    <%= link_to tarefa_concluida_path(tarefa), class: 'nav-link' do %>
-                                        <i class="bi bi-check-square-fill text-success"></i>
-                                    <% end %>
-                                </li>
-                                <% end %>
-                                <li class="list-inline-item">
-                                    <%= link_to edit_tarefa_path(tarefa), class: 'nav-link' do %>
-                                        <i class="bi bi-pencil-fill text-warning"></i>
-                                    <% end %>
-                                </li>
-                                <li class="list-inline-item">
-                                    <%= link_to tarefa, data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}, class: 'nav-link' do %>
-                                        <i class="bi bi-trash-fill text-danger"></i>
-                                    <% end %>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                <% end %>
-            </tbody>
-        </table>
+        <%= render partial: 'list' %>
     </div>
-    <%= link_to new_tarefa_path, class: 'btn btn-primary' do %>
+    
+    <%= link_to new_tarefa_path, class: 'btn btn-primary mt-3' do %>
         Adicionar tarefa
         <i class="bi bi-plus"></i>
     <% end %>

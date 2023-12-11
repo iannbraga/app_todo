@@ -1,0 +1,35 @@
+<ul class="list-group list-group-flush">
+    <% @tarefas.each do |tarefa| %>
+    <li class="list-group-item">
+        <div class="d-flex justify-content-between">
+            <div>
+                <%= link_to tarefa.titulo, tarefa, class: 'nav-link fs-5' %>
+                <span class="text-truncate"><%= tarefa.descricao %></span>
+            </div>
+            <ul class="list-unstyled list-inline">
+                <% if tarefa.concluida %>
+                    <li class="list-inline-item">
+                        <%= render 'shared/modal', nome_botao: '', estilo_botao: 'btn bi bi-eyeglasses fs-1 text-primary me-4 pe-3', titulo_modal: tarefa.titulo, mensagem_modal: tarefa.descricao do %>
+                            <%= button_to '', edit_tarefa_path(tarefa), class: 'btn btn-outline-warning btn-sm bi bi-pencil-fill', method: :get %>
+                            <%= button_to '', tarefa, class: 'btn btn-outline-danger btn-sm bi bi-trash-fill', method: :delete %>
+                        <% end %>
+                    </li>
+                <% else %>
+                    <li class="list-inline-item">
+                        <%= button_to '', tarefa_concluida_path(tarefa), class: 'btn btn-outline-success btn-sm bi bi-check-lg', method: :get %>
+                    </li>
+                    <li class="list-inline-item">
+                        <%= button_to '', edit_tarefa_path(tarefa), class: 'btn btn-outline-warning btn-sm bi bi-pencil-fill', method: :get %>
+                    </li>
+                    <li class="list-inline-item">
+                        <%= button_to '', tarefa, class: 'btn btn-outline-danger btn-sm bi bi-trash-fill', method: :delete %>
+                    </li>
+                <% end %>
+                    <li class="list-inline-item ps-5">
+                        <span class="badge bg-<%= tarefa.concluida ? 'success' : 'warning' %>" style="height: 20px;"><%= tarefa.concluida ? 'Concluída' : 'Pendente' %></span>
+                    </li>
+            </ul>
+        </div>
+    </li>
+    <% end %>
+</ul>
